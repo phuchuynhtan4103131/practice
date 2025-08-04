@@ -46,19 +46,26 @@
 }
 
 /*mobile screen*/
-@media(max-width:768px){
-    .first-Card .second-Card .third-Card .fourth-Card{
-        width: 95%;
-        padding: 10px;
+@media screen and (max-width:1024px){
+    .first-Card .second-Card .third-Card .fourth-Card .profile-picture{
+        display:flex;
+        width: 1fr;
+        height: 1fr;
+        padding: 2%;
+        column-gap:1%;
+        row-gap:3%
+
     }
 }
 /*desktop*/
-@media(min-width:769px){
-    table td th .first-Card .second-Card .third-Card .fourth-Card{
-        max-width: 1200px;
-        padding: 30px;
+    table td th .first-Card .second-Card .third-Card .fourth-Card .profile-picture{
+        display:flex;
+        width: 1fr;
+        height: 1fr;
+        padding: 2%;
+        column-gap:1%;
+        row-gap:3%
     }
-}
 .coffee {
     max-width: 100%;
     height: 300px;
