@@ -47,14 +47,14 @@
 
 /*mobile screen*/
 @media(max-width:768px){
-    .first-Card .second-Card .third-Card{
+    .first-Card .second-Card .third-Card .fourth-Card{
         width: 95%;
         padding: 10px;
     }
 }
 /*desktop*/
 @media(min-width:769px){
-    table td th .first-Card .second-Card .third-Card{
+    table td th .first-Card .second-Card .third-Card .fourth-Card{
         max-width: 1200px;
         padding: 30px;
     }
