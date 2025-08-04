@@ -25,15 +25,11 @@
     }
     
 }
-.header > nav{
-    text-align: right;
-    font-size: 20px;
-    font-weight: bold;
-}
-.centered{
+.header > div{
     text-align: right;
     padding:20px;
-
+    font-weight:bold;
+    font: size 30px;
 }
 .heading{
     font-size:20px;
@@ -47,25 +43,17 @@
 
 /*mobile screen*/
 @media screen and (max-width:1024px){
-    .first-Card .second-Card .third-Card .fourth-Card .profile-picture{
-        display:flex;
-        width: 1fr;
-        height: 1fr;
+    table td th .first-Card .second-Card .third-Card .fourth-Card .profile-picture{
+        display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns:1fr ;
         padding: 2%;
         column-gap:1%;
         row-gap:3%
 
     }
 }
-/*desktop*/
-    table td th .first-Card .second-Card .third-Card .fourth-Card .profile-picture{
-        display:flex;
-        width: 1fr;
-        height: 1fr;
-        padding: 2%;
-        column-gap:1%;
-        row-gap:3%
-    }
+
 .coffee {
     max-width: 100%;
     height: 300px;
@@ -87,12 +75,26 @@
     border-radius: 20px;
     border: black solid;
     padding:15px;
+    width:100%;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr;
+    padding: 2%;
+    column-gap:1%;
+    row-gap:3%;
+    
 }
 .second-Card{
     border-radius: 8px;
     border: black solid;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr ;
+    padding: 2%;
+    column-gap:1%;
+     row-gap:3%
 }
 .third-Card{
     border-radius: 8px;
@@ -101,6 +103,12 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     font-size: 15px;
     font-family:'Space Mono';
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr ;
+    padding: 2%;
+    column-gap:1%;
+    row-gap:3%
 }
 .fourth-Card{
     border-radius: 8px;
@@ -108,6 +116,12 @@
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     font-weight: bold;  
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr ;
+    padding: 2%;
+    column-gap:1%;
+    row-gap:3%
 }
 table{
     width: 100%;
