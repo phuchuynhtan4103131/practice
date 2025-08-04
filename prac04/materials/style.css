@@ -82,6 +82,7 @@
     padding: 2%;
     column-gap:1%;
     row-gap:3%;
+    gap:20px;
     
 }
 .second-Card{
@@ -94,7 +95,8 @@
     grid-template-columns:1fr ;
     padding: 2%;
     column-gap:1%;
-     row-gap:3%
+    row-gap:3%;
+    gap:20px;
 }
 .third-Card{
     border-radius: 8px;
@@ -108,7 +110,8 @@
     grid-template-columns:1fr ;
     padding: 2%;
     column-gap:1%;
-    row-gap:3%
+    row-gap:3%;
+    gap:20px;
 }
 .fourth-Card{
     border-radius: 8px;
@@ -121,7 +124,8 @@
     grid-template-columns:1fr ;
     padding: 2%;
     column-gap:1%;
-    row-gap:3%
+    row-gap:3%;
+    gap:20px;
 }
 table{
     width: 100%;
