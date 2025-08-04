@@ -159,5 +159,5 @@ label{
     border:black solid 5px;
     align-items: center;
     height:300px;
-
+    max-width: 100%;
 }
