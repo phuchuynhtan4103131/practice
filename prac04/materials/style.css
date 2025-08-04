@@ -22,12 +22,16 @@
     font-size:20px;
     text-align: center;
 }
-.navbar{
-
+.rows{
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
 }
 .first-Card{
     border-radius: 20px;
     border: black solid;
+    padding:15px;
+
 
 }
 /*mobile screen*/
@@ -39,14 +43,25 @@
 }
 /*desktop*/
 @media(min-width:769px){
-    .first-Card .second-Card{
+    table td th .first-Card .second-Card{
         max-width: 1200px;
         padding: 30px;
     }
 }
 .second-Card{
-    border-radius: 20px;
+    border-radius: 8px;
     border: black solid;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+td, th{
+    border:1px solid black;
+    padding:10px;
 }
 
 /*Text and stuffs styling here */
