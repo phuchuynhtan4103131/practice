@@ -1,9 +1,12 @@
-/* Your stylings here */
+/* header, heading, footer stylings here */
 .header{
     background-color: cyan;
     border: 20px;
     font-size: 20px;
     font-weight: bold;
+    text-align: left;
+    
+
 }
 .header > nav{
     text-align: right;
@@ -13,11 +16,46 @@
 .centered{
     text-align: right;
     padding:20px;
+
 }
 .heading{
     font-size:20px;
     text-align: center;
 }
 .navbar{
-    
+
+}
+.first-Card{
+    border-radius: 20px;
+    border: black solid;
+
+}
+/*mobile screen*/
+@media(max-width:768px){
+    .first-Card .second-Card{
+        width: 95%;
+        padding: 10px;
+    }
+}
+/*desktop*/
+@media(min-width:769px){
+    .first-Card .second-Card{
+        max-width: 1200px;
+        padding: 30px;
+    }
+}
+.second-Card{
+    border-radius: 20px;
+    border: black solid;
+}
+
+/*Text and stuffs styling here */
+.p1{
+    font-size:15px;
+    font-weight: bold;
+}
+.profile-picture{
+    border-radius: 100%;
+    border:black solid 5px;
+    align-items: center;
 }
