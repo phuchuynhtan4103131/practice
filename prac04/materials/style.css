@@ -1,1 +1,20 @@
 /* Your stylings here */
+.header{
+    background-color: cyan;
+    border: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header > nav{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.centered{
+    text-align: right;
+    padding:20px;
+}
+.heading{
+    font-size:20px;
+    text-align: center;
+}
