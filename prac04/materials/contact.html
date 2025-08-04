@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tan Phuc's Cafe</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="style.css" type="style/css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header" href="index.html">My RMIT Cafe
@@ -16,7 +16,25 @@
     </header>
 
 <body>
-  <h1 class="heading">Contact me</h1>
+   <h1 class="heading">Contact me</h1>
+  <form method="POST" action="/submit-contact">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="8" cols="50" required></textarea>
+    </div>
+    <button type="submit" class="button">Send</button>
+  </form>
+  
+<footer>Create by Phuc Huynh ✍️</footer>
 </body>
 
 </html>
